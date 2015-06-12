@@ -4,6 +4,8 @@ package projetoaereo;
 public class Companhia {
     private String nome;
     private String cnpj;
+    private Aeronave[] aeronave = new Aeronave[100]; //100 aeronaves para cada companhia
+
 
     public Companhia(String nome, String cnpj) {
         this.nome = nome;

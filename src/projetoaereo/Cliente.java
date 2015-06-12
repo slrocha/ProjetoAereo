@@ -1,17 +1,15 @@
 
 package projetoaereo;
 
+import java.util.Date;
 
 public class Cliente {
     private String nome;
     private String cpf;
-    private String dtNasc;
+    private Date dtNasc;
 
-    public Cliente() {
-        
-    }
-      
-    public Cliente(String nome, String cpf, String dtNasc) {
+    
+    public Cliente(String nome, String cpf, Date dtNasc) {
         this.nome = nome;
         this.cpf = cpf;
         this.dtNasc = dtNasc;
@@ -33,11 +31,11 @@ public class Cliente {
         this.cpf = cpf;
     }
 
-    public String getDtNasc() {
+    public Date getDtNasc() {
         return dtNasc;
     }
 
-    public void setDtNasc(String dtNasc) {
+    public void setDtNasc(Date dtNasc) {
         this.dtNasc = dtNasc;
     }
     

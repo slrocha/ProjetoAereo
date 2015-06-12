@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package projetoaereo;
 
-/**
- *
- * @author STEFANI
- */
+import java.util.Date;
+
+
 public class ProjetoAereo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+            
+        Cliente cliente;
+        cliente = new Cliente("Jose Francisco", "123.456.789-00", new Date());
+
+         Companhia companhia;
+          companhia = new Companhia("Gol", "123456789-12/00", ;
+
+         Cliente cliente;
+        cliente = new Cliente("Jose Francisco", "123.456.789-00", new Date());
+
+         Cliente cliente;
+        cliente = new Cliente("Jose Francisco", "123.456.789-00", new Date());
+
+
     }
     
 }

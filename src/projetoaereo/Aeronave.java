@@ -3,17 +3,19 @@ package projetoaereo;
 
 
 public class Aeronave {
-     private String prefixo;
+     private int prefixo;
      private  int qntd_prim_clas;
      private int qntd_clas_econ;
+     private Voo[] voo = new Voo[10]; //10 voos para cada aeronave
 
-    public Aeronave(String prefixo, int qntd_prim_clas, int qntd_clas_econ) {
+
+    public Aeronave(int prefixo, int qntd_prim_clas, int qntd_clas_econ) {
         this.prefixo = prefixo;
         this.qntd_prim_clas = qntd_prim_clas;
         this.qntd_clas_econ = qntd_clas_econ;
     }
 
-    public String getPrefixo() {
+    public int getPrefixo() {
         return prefixo;
     }
 
@@ -25,7 +27,7 @@ public class Aeronave {
         return qntd_prim_clas;
     }
 
-    public void setPrefixo(String prefixo) {
+    public void setPrefixo(int prefixo) {
         this.prefixo = prefixo;
     }
 
