@@ -7,7 +7,7 @@ import java.util.Date;
 public class ProjetoAereo {
 
     public static void main(String[] args) {
-         //testando commit LOGAN   
+         //testando commit LOGAN   Testando mais 
         Cliente cliente;
         cliente = new Cliente("Jose Francisco", "123.456.789-00", new Date());
 
