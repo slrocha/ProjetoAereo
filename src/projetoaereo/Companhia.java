@@ -10,7 +10,7 @@ public class Companhia {
 
     public Companhia(String nome, String cnpj) {
         this.nome = nome;
-        this.cnpj = cnpj
+        this.cnpj = cnpj;
     }
     
 
