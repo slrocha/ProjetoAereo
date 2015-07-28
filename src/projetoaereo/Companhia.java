@@ -6,11 +6,11 @@ import java.util.ArrayList;
 public class Companhia {
     private String nome;
     private String cnpj;
-    private ArrayList<Aeronave> aeronave = new ArrayList<Aeronave>();
+    private final ArrayList<Aeronave> aeronave = new ArrayList<>();
 
     public Companhia(String nome, String cnpj) {
         this.nome = nome;
-        this.cnpj = cnpj;
+        this.cnpj = cnpj
     }
     
 
