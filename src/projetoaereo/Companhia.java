@@ -1,11 +1,12 @@
 
 package projetoaereo;
 
+import java.util.ArrayList;
+
 public class Companhia {
     private String nome;
     private String cnpj;
-    private Aeronave[] aeronave = new Aeronave[100]; //100 aeronaves para cada companhia
-
+    private ArrayList<Aeronave> aeronave = new ArrayList<Aeronave>();
 
     public Companhia(String nome, String cnpj) {
         this.nome = nome;
